@@ -1,0 +1,25 @@
+###GET http://localhost:3000/api/croquetas
+
+
+###GET http://localhost:3000/api/croquetas/Brochetas%20de%20croquetas%20completamente%20comestibles
+
+
+###POST http://localhost:3000/api/ingredientes
+###Content-Type: application/json
+
+###{
+    ###"ingrediente": "oreo",
+    ###"receta": "5",
+    ###"preprocesado": true
+###}
+
+
+POST http://localhost:3000/api/croquetas
+Content-Type: application/json
+
+{
+    "nombre": "Croqueta de oreo color cuchufleto",
+    "creacion": "2024-02-28",
+    "precio": "2.30",
+    "receta": "5"
+}
