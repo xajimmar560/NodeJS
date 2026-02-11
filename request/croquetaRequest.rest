@@ -1,4 +1,4 @@
-###GET http://localhost:3000/api/croquetas
+GET http://localhost:3000/api/croquetas
 
 
 ###GET http://localhost:3000/api/croquetas/Brochetas%20de%20croquetas%20completamente%20comestibles

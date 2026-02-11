@@ -48,6 +48,8 @@ app.use("/api/ingredientes", ingredienteRoutes);
 // ============================================
 // SERVIDOR
 // ============================================
+if (process.env.NODE_ENV !== "test") {
 app.listen(port, () => {
   logMensaje(`Servidor escuchando en el puerto ${port}`);
-});
+})};
+module.exports = app;
